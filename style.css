@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 10%;
+    width: 100px;
+    background: white;
+}
+
+.nav-menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links{
+    padding: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 35px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------Footer------- */
+
+.footer{
+    display: flex;
+    width: 100%;
+    position: sticky;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 10px auto;
+    padding: 0 50px;
+    font-size: 30px;
+    display: flex;
+}
+
+.fab{
+    margin: 20px 15px;
+    color: rgba(61, 116, 219, 0.925);
+}
+
+h4{
+    margin: auto;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.fas{
+    color: red
+}
+
+
+
+
+/* --------------Nine Forms----------------- */
+
+.sub-header{
+    height: 50vh;
+}
+
+.container{
+    width: 90%;
+    padding: 0px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    font-size: 90px;
+    font-family: 'Akronim', cursive;
+    font-weight: 300;
+    text-decoration: underline double black 3px;
+    padding-top: 100px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.leftCol{
+    flex-basis: 35%;
+    
+}
+
+.leftCol img{
+    border-radius: 1%;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 0 0 1px black;
+}
+
+.rightCol{
+    margin-left: 90px;
+    margin-right: 0%;
+    flex-basis: 65%;
+    font-size: 1.5em;
+    border-radius: 2%;
+    transform: translateX(-30);
+    transition: 1s;
+    padding: 50px;
+    background: rgba(255, 255, 0, 0.5);
+}
+
+.rightCol:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.right .leftCol{
+    order: 2;
+}
+
+.right .rightCol{
+    order: 1;
+    margin-right: 90px;
+    margin-left: 0%;
+    background: rgba(7, 206, 7, 0.5);
+}
+
+.left .grey{
+    background: rgba(146, 143, 143, 0.5);
+}
+
+.right .orange{
+    background: rgba(255, 169, 9, 0.5);
+}
+
+.left .white{
+    background: rgba(223, 223, 165, 0.5);
+}
+
+.right .red{
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.left .royalblue{
+    background: rgba(65, 105, 225, 0.5);
+}
+
+.right .pink{
+    background: rgba(255, 75, 186, 0.5);
+}
+
+.left .purple{
+    background: rgba(146, 11, 187, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
