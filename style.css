@@ -200,7 +200,7 @@ H1{
     margin-right: 90px;
     margin-left: 0%;
     background: rgba(7, 206, 7, 0.5);
-    font-family: 'Pacifico', cursive;  
+    
 }
 
 .left .grey{
@@ -232,7 +232,9 @@ H1{
 }
 
 
-
+.rightCol{
+    font-family: 'Pacifico', cursive;
+}
 
 
 
