@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Oswald&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 *{
     margin: 0%;
@@ -136,12 +138,22 @@ h4{
     flex-direction: column;
 }
 
-.container h1{
+.container h2{
     font-size: 90px;
     font-family: 'Akronim', cursive;
     font-weight: 300;
     text-decoration: underline double black 3px;
     padding-top: 100px;
+}
+
+H1{
+    font-size: 50px;
+    font-family:'Akronim', cursive;
+    font-weight: 400;
+    text-decoration: underline double black 3px;
+    padding-top: 100px;
+    text-align: center;
+    color:rgba(15, 2, 2, 0.74);
 }
 
 .row{
@@ -188,6 +200,7 @@ h4{
     margin-right: 90px;
     margin-left: 0%;
     background: rgba(7, 206, 7, 0.5);
+    font-family: 'Pacifico', cursive;  
 }
 
 .left .grey{
