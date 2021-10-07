@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Oswald&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Slabo+27px&family=Architects+Daughter&family=Lobster+Two&display=swap');
 
 
 *{
@@ -55,8 +55,61 @@ html{
     border-bottom: 3px solid white;
 }
 
+.about{
+    padding: 0% 5%;
+    margin-top: -2%;
+    margin-bottom: 4%;
+    width: 90%;
+}
 
+.about p{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+}
 
+.about h1{
+    margin-bottom: 3%;
+    font-size: 100px;
+    font-family: 'Lobster Two', cursive;
+    text-decoration: none;
+}
+
+.indexAbt{
+    background: linear-gradient(to left, #01f7ffb3,rgba(44, 255, 2, 0.7));   
+    width:50%; 
+    margin: 0% auto;
+    margin-top: 5%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.indexAbt div{
+    width: 100%;
+    text-align: left;
+    font-family: 'Architects Daughter', cursive;
+    display: flex;
+    padding: 7px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.indexAbt div .col2{
+    margin-left: -10%;
+    width: 50%;
+    text-align: center;
+}
+
+.indexAbt div .col1{
+    width: 50%;
+    padding-left: 0%;
+    text-align: center;
+}
+
+.indexAbt .heading{
+    font-size: 35px;
+    font-weight: bold;
+}
 
 
 
