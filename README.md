@@ -1,2 +1,2 @@
-# Navrathri
+# Navratri
  Jai Maa Durga
