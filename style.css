@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Oswald&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Slabo+27px&family=Architects+Daughter&family=Lobster+Two&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=El+Messiri:wght@700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima+Madurai:wght@500;600&family=El+Messiri:wght@700&family=Prata&display=swap');
 
 
 *{
@@ -161,17 +161,18 @@ h4{
 
 .container h2{
     font-size: 90px;
-    font-family: 'Akronim', cursive;
+    font-family: 'Acme', sans-serif;
+    color: rgb(90, 89, 89);
     font-weight: 300;
-    text-decoration: underline double black 3px;
+    text-decoration: underline double rgb(172, 165, 165) 3px;
     padding-top: 100px;
 }
 
 H1{
     font-size: 50px;
-    font-family:'Akronim', cursive;
-    font-weight: 400;
-    text-decoration: underline double black 3px;
+    font-family: 'Arima Madurai';
+    font-weight: 600;
+    text-decoration: underline solid rgba(15, 2, 2, 0.74) 5px;
     padding-top: 100px;
     text-align: center;
     color:rgba(15, 2, 2, 0.74);
@@ -191,9 +192,8 @@ H1{
 
 .leftCol img{
     border-radius: 1%;
-    padding: 12px;
     width: 100%;
-    box-shadow: 0 0 1px black;
+    box-shadow: 0 0 0 3px black;
     position: relative;
 }
 
@@ -255,8 +255,8 @@ H1{
 }
 
 
-.rightCol{
-    font-family: 'Pacifico', cursive;
+.rightCol{    
+    font-family:"El Messiri";
 }
 
 @media(max-width: 750px){
