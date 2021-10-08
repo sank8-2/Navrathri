@@ -90,13 +90,13 @@ html{
 }
 
 .icons{
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 0 50px;
     display: flex;
 }
 
 .fab{
-    margin: 20px 15px;
+    margin: 10px 15px;
     font-size: 30px;
     transition: all 0.5s;
     color: rgba(252, 235, 235, 0.925);
@@ -135,15 +135,23 @@ h4{
 /* --------------Nine Forms----------------- */
 
 .sub-header{
-    height: 50vh;
+    height: 30vh;
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url(https://i.postimg.cc/fRgNSWHp/1dbac1b3b9ecf5e5f0948e8defc7f4e2.jpg), #000;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+@media(max-width: 700px){
+    .sub-header{
+        height: 40vh;
+        padding-top: 1vh;
+    }
+}
+
+
 .container{
-    max-width: 90vh;
+    width: 90%;
     padding: 0px 0;
     margin: 0 auto;
     display: flex;
@@ -255,9 +263,13 @@ H1{
     .container{
         text-align: center;
     }
+    .container h2{
+        font-size: 50px;
+    }
     .row{
         flex-direction: column;
         align-content: center;
+        margin: 25px auto;
     }
 
     .leftCol{
@@ -269,8 +281,10 @@ H1{
 
     .rightCol{
         flex-basis: 0;
+        min-height: 400px;
+        overflow: hidden;
         margin: auto;
-        padding: auto;
+        padding: 5px;
     }
 
     .right .leftCol{
@@ -280,10 +294,29 @@ H1{
     .right .rightCol{
         order: 2;
         margin: auto;
-        padding: auto;
+        padding: 5px;
     }
 }
+@media(max-width:350px){
+    .container h2{
+        font-size: 45px;
+    }
 
+    h1{
+        padding-top: 20px;
+    }
+    .row{
+        margin: 10px auto;
+    }
+    .rightCol{
+        min-height: 200px;
+        padding: 2%;
+        font-size: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}
 
 
 /*-----CSS for Calendar-----*/
@@ -388,19 +421,29 @@ h3{
 }
 
 
+@media(max-width:700px){
+    .indexAbt{
+        width: 90%;
+        margin: 0% auto;
+    }
 
+    .indexAbt div .col1{
+        margin-left: -30px;
+        margin-right: 25px;
+    }
+}
 
 
 /*----Gallery---*/
 
 
 
-body{
-    margin:0px;
-    padding:0px;
+
+.containerTwo{
     background: #cce6ff;
 }
-h1{
+
+.containerTwo .galleryContainer h1{
     text-align: center;
     font-family:"El Messiri";
     font-weight: 300;
@@ -519,7 +562,7 @@ img{
     h1{
         font-size: 1.5em;
     }
-    .container{
+    .containerTwo{
         max-width: 700px;
         padding: 15px;
     }
