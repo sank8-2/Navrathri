@@ -660,3 +660,8 @@ img{
     color: rgb(107, 107, 102);
     font-size: 40px;
 }
+
+.container .btn{
+    text-align: right;
+    margin-left: 90%;
+}
