@@ -331,7 +331,7 @@ H1{
 .cal-head{
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 50px;
-   margin-left: 80px;
+   text-align: center;
 }
 
 .cal-row{
@@ -459,7 +459,7 @@ img{
     border-radius: 8px;
 }
 .galleryContainer{
-    width:900px;
+    width: 70%;
     margin:0 auto;
     display:flex;
     flex-direction: column;
@@ -508,7 +508,7 @@ img{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    overflow-x:auto;
+    overflow-x: auto;
     overflow-y: hidden;
 }
 .thumbnailImage{
@@ -558,17 +558,26 @@ img{
 }
 /*Responsive*/
 
-@media(max-width: 768px){
+@media(max-width: 700px){
     h1{
         font-size: 1.5em;
     }
     .containerTwo{
-        max-width: 700px;
+        max-width: 100%;
         padding: 15px;
     }
     .galleryContainer{
-        width:100%;
-        margin:0;
+        width:90%;
+        margin:0 auto;
+    }
+    .thumbnails{
+        flex-flow: row wrap;
+    }
+    .gallery{
+        display: none;
+    }
+    .footer{
+        text-align: center;
     }
 }
 
@@ -632,4 +641,22 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+
+
+.col1 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.far{
+    position: relative;
+    left: 80%;
+    top: 85%;
+    color: rgb(107, 107, 102);
+    font-size: 40px;
 }
