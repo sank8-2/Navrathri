@@ -476,4 +476,64 @@ img{
     }
 }
 
+/*-----facts-----*/
 
+
+.facts{
+    margin: 9% auto;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    width: 86%;
+}
+
+.facts .factHead{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.artofliving.org/sites/www.artofliving.org/files/styles/max_width/public/What-to-do-during-Navratri-min.jpg.webp?itok=Yz4wiVCp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0% -4%;
+}
+
+.do{
+    color: white;
+    padding: 0%;
+    padding-left: 5%;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+.facts p{
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 1%;
+}
+
+.facts h2{
+    margin-bottom: 0.5%;
+}
+
+.facts .factBody{
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(249, 249, 249));
+    padding: 2%;
+    margin-bottom: 150px;
+}
+
+.facts .headTwo{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.artofliving.org/sites/www.artofliving.org/files/styles/max_width/public/silence.jpg.webp?itok=nAN8GuS6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.facts .headThree{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://www.artofliving.org/sites/www.artofliving.org/files/styles/max_width/public/Fasting%20duing%20navratri%20background.jpg.webp?itok=5whb7blc);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
